@@ -56,3 +56,6 @@ Originate Time Stamp: 1962-02-23 01:37:49 (1961113069.422561645 sec.)
 Receive Time Stamp: 2021-07-27 23:36:27 (3836417787.000000 sec.)
 Transmit Time Stamp: 2021-07-27 23:36:27 (3836417787.000000 sec.)
 ```
+
+Note:
+ `Root Delay` and `Root Dispersion` is set to `0.00` by default, due to hardcoded values in the ntp packet!
