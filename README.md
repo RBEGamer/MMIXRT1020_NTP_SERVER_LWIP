@@ -57,5 +57,10 @@ Receive Time Stamp: 2021-07-27 23:36:27 (3836417787.000000 sec.)
 Transmit Time Stamp: 2021-07-27 23:36:27 (3836417787.000000 sec.)
 ```
 
-Note:
+### Note
  `Root Delay` and `Root Dispersion` is set to `0.00` by default, due to hardcoded values in the ntp packet!
+
+### Error-Handling
+
+`Leap indictor` will be set to `3 (not synced)` and `Peer Clock Stratum` to `16` to notify the client if there is an error with the system.
+This can occur, if no gps or rtc is present and/or no data are recieved from the clock sources.
